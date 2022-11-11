@@ -1,0 +1,1 @@
+export const mapAxiosError = (err: any) => err?.response?.data?.message || "We ran into an unknown error. Please try again";
